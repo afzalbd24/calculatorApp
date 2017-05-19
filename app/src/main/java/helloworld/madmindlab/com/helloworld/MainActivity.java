@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
                 int num2 = Integer.parseInt(secondEditText.getText().toString());
                 int result = num1*num2;
                 textView.setText(" "+result);
+
+                 // Log.d("firstProgram","result is "+(num1-num2));
             }
         });
 
